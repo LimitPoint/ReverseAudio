@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD6569EF271376F000817D07 /* ReverseAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6569EE271376F000817D07 /* ReverseAudio.swift */; };
+		CD6569F0271376F000817D07 /* ReverseAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6569EE271376F000817D07 /* ReverseAudio.swift */; };
+		CDC22B4B2700ACF30088213E /* ReverseAudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC22B3B2700ACF20088213E /* ReverseAudioApp.swift */; };
+		CDC22B4C2700ACF30088213E /* ReverseAudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC22B3B2700ACF20088213E /* ReverseAudioApp.swift */; };
+		CDC22B4D2700ACF30088213E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC22B3C2700ACF20088213E /* ContentView.swift */; };
+		CDC22B4E2700ACF30088213E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC22B3C2700ACF20088213E /* ContentView.swift */; };
+		CDC22B4F2700ACF30088213E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC22B3D2700ACF30088213E /* Assets.xcassets */; };
+		CDC22B502700ACF30088213E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC22B3D2700ACF30088213E /* Assets.xcassets */; };
+		CDC22B602700B5400088213E /* ReverseAudioObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC22B5F2700B5400088213E /* ReverseAudioObservable.swift */; };
+		CDC22B612700B5400088213E /* ReverseAudioObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC22B5F2700B5400088213E /* ReverseAudioObservable.swift */; };
+		CDFCF8D72793B2E500D2D636 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFCF8D62793B2E500D2D636 /* File.swift */; };
+		CDFCF8D82793B2E500D2D636 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFCF8D62793B2E500D2D636 /* File.swift */; };
+		CDFCF8DA2793B48100D2D636 /* FileTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFCF8D92793B48100D2D636 /* FileTableView.swift */; };
+		CDFCF8DB2793B48100D2D636 /* FileTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFCF8D92793B48100D2D636 /* FileTableView.swift */; };
+		CDFCF8DD2793B7B700D2D636 /* Audio Files in Resources */ = {isa = PBXBuildFile; fileRef = CDFCF8DC2793B7B700D2D636 /* Audio Files */; };
+		CDFCF8DE2793B7B700D2D636 /* Audio Files in Resources */ = {isa = PBXBuildFile; fileRef = CDFCF8DC2793B7B700D2D636 /* Audio Files */; };
+		CDFCF8E02793F6D900D2D636 /* Echo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CDFCF8DF2793F6D900D2D636 /* Echo.m4a */; };
+		CDFCF8E12793F6D900D2D636 /* Echo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CDFCF8DF2793F6D900D2D636 /* Echo.m4a */; };
+		CDFCF8E32794020900D2D636 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFCF8E22794020900D2D636 /* HeaderView.swift */; };
+		CDFCF8E42794020900D2D636 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFCF8E22794020900D2D636 /* HeaderView.swift */; };
+		CDFCF8E62794027F00D2D636 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFCF8E52794027F00D2D636 /* ActivityView.swift */; };
+		CDFCF8E72794027F00D2D636 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFCF8E52794027F00D2D636 /* ActivityView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD6569EE271376F000817D07 /* ReverseAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseAudio.swift; sourceTree = "<group>"; };
+		CDC22B3B2700ACF20088213E /* ReverseAudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseAudioApp.swift; sourceTree = "<group>"; };
+		CDC22B3C2700ACF20088213E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDC22B3D2700ACF30088213E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDC22B422700ACF30088213E /* ReverseAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReverseAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC22B482700ACF30088213E /* ReverseAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReverseAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC22B4A2700ACF30088213E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		CDC22B5F2700B5400088213E /* ReverseAudioObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseAudioObservable.swift; sourceTree = "<group>"; };
+		CDC22B6C2700CBE40088213E /* ReverseAudio--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReverseAudio--iOS--Info.plist"; sourceTree = "<group>"; };
+		CDFCF8D62793B2E500D2D636 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		CDFCF8D92793B48100D2D636 /* FileTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileTableView.swift; sourceTree = "<group>"; };
+		CDFCF8DC2793B7B700D2D636 /* Audio Files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Audio Files"; sourceTree = "<group>"; };
+		CDFCF8DF2793F6D900D2D636 /* Echo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Echo.m4a; sourceTree = "<group>"; };
+		CDFCF8E22794020900D2D636 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		CDFCF8E52794027F00D2D636 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDC22B3F2700ACF30088213E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC22B452700ACF30088213E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDC22B352700ACF20088213E = {
+			isa = PBXGroup;
+			children = (
+				CDC22B6C2700CBE40088213E /* ReverseAudio--iOS--Info.plist */,
+				CDC22B3A2700ACF20088213E /* Shared */,
+				CDC22B6B2700CBD30088213E /* iOS */,
+				CDC22B492700ACF30088213E /* macOS */,
+				CDC22B432700ACF30088213E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDC22B3A2700ACF20088213E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CDFCF8D62793B2E500D2D636 /* File.swift */,
+				CDFCF8D92793B48100D2D636 /* FileTableView.swift */,
+				CDFCF8E22794020900D2D636 /* HeaderView.swift */,
+				CDFCF8E52794027F00D2D636 /* ActivityView.swift */,
+				CDC22B3C2700ACF20088213E /* ContentView.swift */,
+				CDC22B3B2700ACF20088213E /* ReverseAudioApp.swift */,
+				CDC22B5F2700B5400088213E /* ReverseAudioObservable.swift */,
+				CD6569EE271376F000817D07 /* ReverseAudio.swift */,
+				CDFCF8DF2793F6D900D2D636 /* Echo.m4a */,
+				CDC22B3D2700ACF30088213E /* Assets.xcassets */,
+				CDFCF8DC2793B7B700D2D636 /* Audio Files */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CDC22B432700ACF30088213E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDC22B422700ACF30088213E /* ReverseAudio.app */,
+				CDC22B482700ACF30088213E /* ReverseAudio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDC22B492700ACF30088213E /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				CDC22B4A2700ACF30088213E /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		CDC22B6B2700CBD30088213E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDC22B412700ACF30088213E /* ReverseAudio (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC22B532700ACF30088213E /* Build configuration list for PBXNativeTarget "ReverseAudio (iOS)" */;
+			buildPhases = (
+				CDC22B3E2700ACF30088213E /* Sources */,
+				CDC22B3F2700ACF30088213E /* Frameworks */,
+				CDC22B402700ACF30088213E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReverseAudio (iOS)";
+			productName = "ReverseAudio (iOS)";
+			productReference = CDC22B422700ACF30088213E /* ReverseAudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDC22B472700ACF30088213E /* ReverseAudio (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC22B562700ACF30088213E /* Build configuration list for PBXNativeTarget "ReverseAudio (macOS)" */;
+			buildPhases = (
+				CDC22B442700ACF30088213E /* Sources */,
+				CDC22B452700ACF30088213E /* Frameworks */,
+				CDC22B462700ACF30088213E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReverseAudio (macOS)";
+			productName = "ReverseAudio (macOS)";
+			productReference = CDC22B482700ACF30088213E /* ReverseAudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDC22B362700ACF20088213E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1320;
+				ORGANIZATIONNAME = "Limit Point LLC";
+				TargetAttributes = {
+					CDC22B412700ACF30088213E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					CDC22B472700ACF30088213E = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = CDC22B392700ACF20088213E /* Build configuration list for PBXProject "ReverseAudio" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDC22B352700ACF20088213E;
+			productRefGroup = CDC22B432700ACF30088213E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDC22B412700ACF30088213E /* ReverseAudio (iOS) */,
+				CDC22B472700ACF30088213E /* ReverseAudio (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDC22B402700ACF30088213E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFCF8DD2793B7B700D2D636 /* Audio Files in Resources */,
+				CDC22B4F2700ACF30088213E /* Assets.xcassets in Resources */,
+				CDFCF8E02793F6D900D2D636 /* Echo.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC22B462700ACF30088213E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFCF8DE2793B7B700D2D636 /* Audio Files in Resources */,
+				CDC22B502700ACF30088213E /* Assets.xcassets in Resources */,
+				CDFCF8E12793F6D900D2D636 /* Echo.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDC22B3E2700ACF30088213E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC22B4D2700ACF30088213E /* ContentView.swift in Sources */,
+				CDFCF8DA2793B48100D2D636 /* FileTableView.swift in Sources */,
+				CDC22B4B2700ACF30088213E /* ReverseAudioApp.swift in Sources */,
+				CDFCF8D72793B2E500D2D636 /* File.swift in Sources */,
+				CD6569EF271376F000817D07 /* ReverseAudio.swift in Sources */,
+				CDFCF8E62794027F00D2D636 /* ActivityView.swift in Sources */,
+				CDC22B602700B5400088213E /* ReverseAudioObservable.swift in Sources */,
+				CDFCF8E32794020900D2D636 /* HeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC22B442700ACF30088213E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC22B4E2700ACF30088213E /* ContentView.swift in Sources */,
+				CDFCF8DB2793B48100D2D636 /* FileTableView.swift in Sources */,
+				CDC22B4C2700ACF30088213E /* ReverseAudioApp.swift in Sources */,
+				CDFCF8D82793B2E500D2D636 /* File.swift in Sources */,
+				CD6569F0271376F000817D07 /* ReverseAudio.swift in Sources */,
+				CDFCF8E72794027F00D2D636 /* ActivityView.swift in Sources */,
+				CDC22B612700B5400088213E /* ReverseAudioObservable.swift in Sources */,
+				CDFCF8E42794020900D2D636 /* HeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CDC22B512700ACF30088213E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDC22B522700ACF30088213E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CDC22B542700ACF30088213E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZABHNF58X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ReverseAudio--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.limit-point.ReverseAudio";
+				PRODUCT_NAME = ReverseAudio;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDC22B552700ACF30088213E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZABHNF58X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ReverseAudio--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.limit-point.ReverseAudio";
+				PRODUCT_NAME = ReverseAudio;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDC22B572700ACF30088213E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZABHNF58X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.limit-point.ReverseAudio";
+				PRODUCT_NAME = ReverseAudio;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CDC22B582700ACF30088213E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GZABHNF58X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.limit-point.ReverseAudio";
+				PRODUCT_NAME = ReverseAudio;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDC22B392700ACF20088213E /* Build configuration list for PBXProject "ReverseAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC22B512700ACF30088213E /* Debug */,
+				CDC22B522700ACF30088213E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC22B532700ACF30088213E /* Build configuration list for PBXNativeTarget "ReverseAudio (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC22B542700ACF30088213E /* Debug */,
+				CDC22B552700ACF30088213E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC22B562700ACF30088213E /* Build configuration list for PBXNativeTarget "ReverseAudio (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC22B572700ACF30088213E /* Debug */,
+				CDC22B582700ACF30088213E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDC22B362700ACF20088213E /* Project object */;
+}
