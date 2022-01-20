@@ -21,9 +21,9 @@ The project is comprised of:
 
 Reversing audio is performed in 3 steps using [AVFoundation]:
 
-1. Read the audio samples of a file into an `Array` of `[Int16]`
-2. Reverse the array and create audio samples from the reversed array
-3. Write the reversed samples to a file
+1. Read the audio samples of a file into an `Array` of `[Int16]` and reverse it
+2. Create an array of sample buffers [[CMSampleBuffer]] for the array of reversed audio samples
+3. Write the reversed sample buffers in [[CMSampleBuffer]] to a file
 
 The top level method that implements all of this, and is employed by the `ReverseAudioObservable` is: 
 
@@ -35,3 +35,4 @@ func reverseAudio(asset:AVAsset, destinationURL:URL, progress: @escaping (Float)
 [ObservableObject]: https://developer.apple.com/documentation/combine/observableobject
 [AVFoundation]: https://developer.apple.com/documentation/avfoundation/
 [SwiftUI]: https://developer.apple.com/tutorials/swiftui
+[CMSampleBuffer]: https://developer.apple.com/documentation/coremedia/cmsamplebuffer
