@@ -42,6 +42,27 @@ class ReverseAudio {
         return (nil, nil, nil)
     }
     
+    // alternative extractSamples avoids CMSampleBufferGetAudioBufferListWithRetainedBlockBuffer
+    /*
+    func extractSamples(_ sampleBuffer:CMSampleBuffer) -> [Int16]? {
+        
+        if let dataBuffer = CMSampleBufferGetDataBuffer(sampleBuffer) {
+            
+            let sizeofInt16 = MemoryLayout<Int16>.size
+            
+            let bufferLength = CMBlockBufferGetDataLength(dataBuffer)
+            
+            var data = [Int16](repeating: 0, count: bufferLength / sizeofInt16)
+            
+            CMBlockBufferCopyDataBytes(dataBuffer, atOffset: 0, dataLength: bufferLength, destination: &data)
+            
+            return data
+        }
+        
+        return nil
+    }
+     */
+    
     func extractSamples(_ sampleBuffer:CMSampleBuffer) -> [Int16]? {
         
         var blockBuffer: CMBlockBuffer? = nil
