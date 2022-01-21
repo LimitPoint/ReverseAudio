@@ -24,7 +24,7 @@ class ReverseAudioObservable: ObservableObject  {
     
     var documentsURL:URL
     
-    var audioPlayer: AVAudioPlayer? // hold on to it!
+    var audioPlayer: AVAudioPlayer?
     
     let reverseAudio = ReverseAudio()
     

@@ -22,7 +22,7 @@ struct FileTableViewRowView: View {
             Button("Play", action: {
                 reverseAudioObservable.playAudioURL(file.url)
             })
-                .buttonStyle(BorderlessButtonStyle()) // need this or tapping one invokes both actions
+                .buttonStyle(BorderlessButtonStyle())
             
             Button("Reverse", action: {
                 reverseAudioObservable.reverseAudioURL(url: file.url)
@@ -44,20 +44,18 @@ struct FileTableView: View {
         }
         else {
 #if os(macOS)
-                // https://developer.apple.com/documentation/swiftui/list
             List(reverseAudioObservable.files) {
                 FileTableViewRowView(file: $0, reverseAudioObservable: reverseAudioObservable)
             }
 #else
             NavigationView {
-                    // https://developer.apple.com/documentation/swiftui/list
                 List(reverseAudioObservable.files) {
                     FileTableViewRowView(file: $0, reverseAudioObservable: reverseAudioObservable)
                 }
                 .navigationTitle("Audio Files")
                 
             }
-            .navigationViewStyle(StackNavigationViewStyle()) // otherwise on iPad appears 'collapsed'
+            .navigationViewStyle(StackNavigationViewStyle())
 #endif
         }
         
