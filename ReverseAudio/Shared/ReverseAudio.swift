@@ -78,7 +78,7 @@ class ReverseAudio {
         return nil
     }
     
-    func readAudioSamples(asset:AVAsset) -> (Int, Int, [Int16])? {
+    func readAndReverseAudioSamples(asset:AVAsset) -> (Int, Int, [Int16])? {
         
         let (_, reader, readerOutput) = self.audioReader(asset:asset, outputSettings: kAudioReaderSettings)
         
@@ -305,7 +305,7 @@ class ReverseAudio {
     
     func reverseAudio(asset:AVAsset, destinationURL:URL, progress: @escaping (Float) -> (), completion: @escaping (Bool, String?) -> ())  {
         
-        guard let (bufferSize, sampleRate, audioSamples) = readAudioSamples(asset: asset) else {
+        guard let (bufferSize, sampleRate, audioSamples) = readAndReverseAudioSamples(asset: asset) else {
             completion(false, "Can't read audio samples")
             return
         }
