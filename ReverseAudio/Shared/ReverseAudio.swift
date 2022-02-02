@@ -223,14 +223,14 @@ class ReverseAudio {
         
         let sourceFormat = CMSampleBufferGetFormatDescription(sampleBuffer)
         
-        let audioCompressionSettings = [AVFormatIDKey: kAudioFormatLinearPCM] as [String : Any]
+        let audioFormatSettings = [AVFormatIDKey: kAudioFormatLinearPCM] as [String : Any]
         
-        if assetWriter.canApply(outputSettings: audioCompressionSettings, forMediaType: AVMediaType.audio) == false {
-            completion(false, "Can't apply compression settings to asset writer.")
+        if assetWriter.canApply(outputSettings: audioFormatSettings, forMediaType: AVMediaType.audio) == false {
+            completion(false, "Can't apply output settings to asset writer.")
             return
         }
         
-        let audioWriterInput = AVAssetWriterInput(mediaType: AVMediaType.audio, outputSettings:audioCompressionSettings, sourceFormatHint: sourceFormat)
+        let audioWriterInput = AVAssetWriterInput(mediaType: AVMediaType.audio, outputSettings:audioFormatSettings, sourceFormatHint: sourceFormat)
         
         audioWriterInput.expectsMediaDataInRealTime = kAudioWriterExpectsMediaDataInRealTime
         
