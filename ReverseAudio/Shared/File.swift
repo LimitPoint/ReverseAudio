@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct File: Codable, Identifiable {
+struct File: Identifiable {
     var url:URL
     var id = UUID()
 }
