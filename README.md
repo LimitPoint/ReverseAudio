@@ -1,3 +1,5 @@
+
+![ReverseAudio](http://www.limit-point.com/assets/images/ReverseAudio.jpg)
 # ReverseAudio.swift
 ## Reverses one channel of an audio file into another 1-channel WAV audio file
 
