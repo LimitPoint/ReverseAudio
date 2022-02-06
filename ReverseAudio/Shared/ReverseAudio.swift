@@ -117,7 +117,7 @@ class ReverseAudio {
                             }
                             
                                 // only read 1 channel of samples. 
-                            for elem in stride(from:0, to: bufferSamples.count-1, by: channelCount)
+                            for elem in stride(from:0, to: bufferSamples.count - (channelCount-1), by: channelCount)
                             {
                                 audioSamples.append(bufferSamples[elem])
                             }
