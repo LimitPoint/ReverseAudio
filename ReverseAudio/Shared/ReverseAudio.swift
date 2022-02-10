@@ -15,6 +15,7 @@ let kAudioReaderSettings = [
     AVLinearPCMBitDepthKey: 16 as AnyObject,
     AVLinearPCMIsBigEndianKey: false as AnyObject,
     AVLinearPCMIsFloatKey: false as AnyObject,
+    //AVNumberOfChannelsKey: 1 as AnyObject, // can set to read one channel only to avoid extracting only 1 later
     AVLinearPCMIsNonInterleaved: false as AnyObject]
 
 let kAudioWriterExpectsMediaDataInRealTime = false
