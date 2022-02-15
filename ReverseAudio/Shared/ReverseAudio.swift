@@ -15,7 +15,7 @@ let kAudioReaderSettings = [
     AVLinearPCMBitDepthKey: 16 as AnyObject,
     AVLinearPCMIsBigEndianKey: false as AnyObject,
     AVLinearPCMIsFloatKey: false as AnyObject,
-    //AVNumberOfChannelsKey: 1 as AnyObject, // Set to 1 to read all channels merged into 1
+    //AVNumberOfChannelsKey: 1 as AnyObject, // Set to 1 to read all channels merged into one
     AVLinearPCMIsNonInterleaved: false as AnyObject]
 
 let kAudioWriterExpectsMediaDataInRealTime = false
@@ -118,6 +118,7 @@ class ReverseAudio {
                             }
                             
                                 // only read 1 channel of samples. 
+                                // Note: If AVNumberOfChannelsKey is set to 1 in kAudioReaderSettings all channels will be merged into one
                             for elem in stride(from:0, to: bufferSamples.count - (channelCount-1), by: channelCount)
                             {
                                 audioSamples.append(bufferSamples[elem])
